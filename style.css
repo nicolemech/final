@@ -1,0 +1,113 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 64rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+}
+
+header {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+
+main {
+  background-color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0 1.5rem;
+}
+
+main h1 {
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+main p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+footer {
+  clear: both;
+  grid-column: span 2;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+nav {
+  background-color: antiquewhite;
+  padding: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  line-height: 1.3rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  padding: 1rem 0;
+  border-bottom: 1px solid silver;
+  text-decoration: none;
+}
+nav a:hover {
+  
+}
+
+
+.month {
+  border-top: 3px solid silver;
+  padding: 1rem;
+  display: grid;
+  justify-content: start;
+
+
+}
+
+.month img {
+  max-width: 250px;
+  padding-bottom: .5rem;
+
+}
+
+.month figure {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.month figcaption {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.playing {
+  border-top: 3px solid silver;
+  padding: 1rem;
+  display: grid;
+  justify-content: start;
+}
+
+.playing img {
+  max-width: 180px;
+}
+
+.playing figcaption{
+  padding: .5rem .5rem 0 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: .8rem;
+}
+.playing-figures {
+  padding: 1rem;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+}
