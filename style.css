@@ -124,11 +124,11 @@ nav a:hover {
   font-size: .8rem;
 }
 
-.playing-figures figure {
+.playing-content figure {
   padding-right: 1rem;
 }
 
-.playing-figures {
+.playing-content {
   padding: 1rem;
   display: flex;
   flex: wrap;
